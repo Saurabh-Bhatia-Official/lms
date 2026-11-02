@@ -1,0 +1,70 @@
+# ==========================================
+# EduPulse LMS - Root .gitignore
+# ==========================================
+
+# Environment variables & secrets (CRITICAL: Never commit .env files)
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+<<<<<<< HEAD
+=======
+venv/
+.venv/
+env/
+>>>>>>> e748a45af7cbc731caed8f47f3a3834494c42e76
+
+# Maven & Java Build Outputs
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+<<<<<<< HEAD
+# Node & Frontend Build Outputs
+**/node_modules/
+**/dist/
+**/build/
+=======
+# Frontend & Flutter Build Outputs
+**/node_modules/
+**/dist/
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+>>>>>>> e748a45af7cbc731caed8f47f3a3834494c42e76
+.npm
+.yarn/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE & Editor Specific Files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary and Scratch Directories
+tmp/
+temp/
+scratch/
+.system_generated/
